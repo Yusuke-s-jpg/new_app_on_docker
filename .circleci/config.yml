@@ -25,7 +25,7 @@ workflows:
   build_and_test_and_deploy:
     jobs:
       - build
-      - test
+      - test 
       - deploy:
           requires:
             - build
