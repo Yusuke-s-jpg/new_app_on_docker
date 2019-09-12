@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout
   test:
-    docker:
+    docker: 
       - image: circleci/ruby:2.5.3
     steps:
       - checkout
